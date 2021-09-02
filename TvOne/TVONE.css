@@ -20,6 +20,7 @@
   height: 451px;
   object-position: 0% 50%;
   background-position: 0% 50%;
+  animation-duration: 1000ms;
   margin: 33px auto 0 79px;
 }
 
@@ -27,7 +28,9 @@
   min-height: 356px;
   width: 490px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
-  margin: -134px 133px 0 auto;
+  height: auto;
+  animation-duration: 1000ms;
+  margin: -136px 133px 0 auto;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -49,7 +52,8 @@
 .u-section-2 .u-shape-2 {
   width: 144px;
   height: 144px;
-  margin: -293px auto 60px 124px;
+  animation-duration: 1000ms;
+  margin: -291px auto 60px 124px;
 }
 
 @media (max-width: 1199px) {
@@ -78,6 +82,7 @@
     width: 505px;
     margin-top: -139px;
     margin-right: 109px;
+    height: auto;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -234,6 +239,7 @@
   height: 405px;
   object-position: 0% 50%;
   background-position: 0% 50%;
+  animation-duration: 1000ms;
   margin: -740px auto 0 152px;
 }
 
@@ -252,6 +258,7 @@
   background-image: none;
   box-shadow: -2px 2px 11px 2px rgba(128,128,128,0.45);
   text-shadow: 1px 1px 8px rgba(0,0,0,0);
+  animation-duration: 1000ms;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -284,6 +291,7 @@
   background-image: none;
   box-shadow: -2px 2px 11px 2px rgba(128,128,128,0.45);
   text-shadow: 1px 1px 8px rgba(0,0,0,0);
+  animation-duration: 1000ms;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -316,6 +324,7 @@
   background-image: none;
   box-shadow: -2px 2px 11px 2px rgba(128,128,128,0.45);
   text-shadow: 1px 1px 8px rgba(0,0,0,0);
+  animation-duration: 1000ms;
 }
 
 .u-section-3 .u-container-layout-3 {
@@ -554,6 +563,7 @@
   width: 621px;
   height: 439px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.15);
+  animation-duration: 1000ms;
   margin: -511px auto 0 43px;
 }
 
@@ -772,6 +782,10 @@
   padding: 20px;
 }
 
+.u-section-5 .u-video-1 {
+  animation-duration: 1000ms;
+}
+
 .u-section-5 .embed-responsive-1 {
   position: absolute;
   width: 178%;
@@ -786,6 +800,10 @@
 
 .u-section-5 .u-container-layout-2 {
   padding: 20px;
+}
+
+.u-section-5 .u-video-2 {
+  animation-duration: 1000ms;
 }
 
 .u-section-5 .embed-responsive-2 {
@@ -913,6 +931,10 @@
   padding: 20px;
 }
 
+.u-section-6 .u-video-1 {
+  animation-duration: 1000ms;
+}
+
 .u-section-6 .embed-responsive-1 {
   position: absolute;
   width: 178%;
@@ -923,6 +945,7 @@
 
 .u-section-6 .u-layout-cell-2 {
   min-height: 414px;
+  animation-duration: 1000ms;
 }
 
 .u-section-6 .u-container-layout-2 {
