@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*========== Variables Dark theme ==========*/
+
+:root {
+  --header-height: 3rem;
+
+  /*========== VARIAVEIS CSS ==========*/
+  --grace: 39;
+  --sub-grace: 199;
+
+  /* ========= CORES ========= */
+  color: hsl(39, 92%, 34%);
+  --base-color: hsl(var(--grace), 92%, 34%);
+
+  color: hsl(39, 100%, 51%);
+  --secun-color: hsl(var(--grace), 100%, 51%);
+
+  color: hsl(190, 69%, 15%);
+  --title-color: #0a83bb;
+
+  color: hsl(0, 0%, 0%);
+  --h-color: hsl(0, 0%, 0%);
+
+  color: hsl(0, 0%, 15%);
+  --p-color: hsl(0, 0%, 15%);
+
+  color: #0a8fcd;
+  --text-color: #60a6c7;
+
+  color: hsl(190, 8%, 60%);
+  --text-color-normal: hsl(var(--sub-grace), 8%, 60%);
+
+  color: hsl(190, 24%, 97%);
+  --input-color: hsl(var(--sub-grace), 24%, 97%);
+
+  color: hsl(190, 0%, 100%);
+  --backgound-color: hsl(var(--sub-grace), 0%, 100%);
+
+  --body-color: #e4e4e4;
+  --cinza-color: #ddd;
+  --white-color: hsla(0, 0%, 95%, 0.733);
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Open Sans', sans-serif;
+  --title-font: 'Raleway', sans-serif;
+  --biggest-font-size: 2.5rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  /*========== Font weight ==========*/
+  --weight-medium: 500;
+  --weight-semi-bold: 600;
+  --weight-bold: 700;
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.75rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+
+  main {
+    margin-top: -50vh;
+  }
+}
+
+/**======= DARK MODE =======**/
+body.dark-theme {
+  --base-color: hsl(var(--grace), 92%, 34%);
+  --text-color-normal: hsl(var(--sub-grace), 8%, 60%);
+  --secun-color: hsl(var(--sub-grace), 54%, 12%);
+  --title-color: hsl(var(--sub-grace), 24%, 95%);
+  --text-color: hsl(var(--sub-grace), 8%, 75%);
+  --backgound-color: red;
+  --body-color: rgb(0, 46, 56);
+  --cinza-color: rgb(0, 46, 56);
+  --white-color: rgba(0, 46, 56, 0.473);
+}
+
+body {
+  background-color: var(--backgound-color);
+  font-weight: var(--font-medium);
+  font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+  color: var(--text-color-normal);
+}
+
+.title {
+  font-weight: var(--weight-semi-bold);
+  font-size: var(--h2-font-size);
+  font-family: var(--title-font);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.button {
+  color: var(--text-color-normal);
+}
+
+.container {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.section {
+  padding: 3.5rem 0;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
