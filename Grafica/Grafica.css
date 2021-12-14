@@ -54,7 +54,8 @@
   right: 10px;
   width: 40px;
   height: 40px;
-}.u-section-2 {
+}
+.u-section-2 {
   min-height: 758px;
 }
 
@@ -70,7 +71,7 @@
   height: 570px;
   object-position: 2.6% 50%;
   background-position: 50% 50%;
-  background-image: url("images/mesa-com-acessorios-coloridos-de-design-grafico.webp");
+  background-image: url('images/mesa-com-acessorios-coloridos-de-design-grafico.webp');
   animation-duration: 1000ms;
   margin: -437px calc(((100% - 1140px) / 2) + 89px) 0 auto;
 }
@@ -79,7 +80,7 @@
   width: 503px;
   min-height: 410px;
   background-image: none;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
   margin: -316px auto 57px calc(((100% - 1140px) / 2) + 148px);
 }
@@ -191,7 +192,8 @@
   .u-section-2 .u-text-2 {
     margin-right: 0;
   }
-}.u-section-3 .u-sheet-1 {
+}
+.u-section-3 .u-sheet-1 {
   min-height: 1078px;
 }
 
@@ -208,14 +210,16 @@
 }
 
 .u-section-3 .u-repeater-1 {
-  grid-template-columns: calc(33.3333% - 19.3333px) calc(33.3333% - 19.3333px) calc(33.3333% - 19.3333px);
+  grid-template-columns: calc(33.3333% - 19.3333px) calc(33.3333% - 19.3333px) calc(
+      33.3333% - 19.3333px
+    );
   grid-gap: 29px 29px;
   min-height: 793px;
 }
 
 .u-section-3 .u-list-item-1 {
   background-image: none;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -226,7 +230,7 @@
 .u-section-3 .u-image-1 {
   width: 203px;
   height: 203px;
-  background-image: url("images/campionari_m.jpg");
+  background-image: url('../assets/Impressão_de_Rígidos.jpg');
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -252,7 +256,7 @@
 }
 
 .u-section-3 .u-list-item-2 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -263,7 +267,7 @@
 .u-section-3 .u-image-2 {
   width: 203px;
   height: 203px;
-  background-image: url("images/campionari_m.jpg");
+  background-image: url('../assets/impressao-flexiveis.jpg');
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -287,7 +291,7 @@
 }
 
 .u-section-3 .u-list-item-3 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -298,7 +302,7 @@
 .u-section-3 .u-image-3 {
   width: 203px;
   height: 203px;
-  background-image: url("images/campionari_m.jpg");
+  background-image: url('../assets/Impressao-Pequeno-Formato.jpg');
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -322,7 +326,7 @@
 }
 
 .u-section-3 .u-list-item-4 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -333,7 +337,7 @@
 .u-section-3 .u-image-4 {
   width: 203px;
   height: 203px;
-  background-image: url("images/campionari_m.jpg");
+  background-image: url('../assets/mkt-social.jpg');
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -357,7 +361,7 @@
 }
 
 .u-section-3 .u-list-item-5 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -368,7 +372,7 @@
 .u-section-3 .u-image-5 {
   width: 203px;
   height: 203px;
-  background-image: url("images/campionari_m.jpg");
+  background-image: url('../assets/Produção-de-Conteúdos.jpg');
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -392,7 +396,7 @@
 }
 
 .u-section-3 .u-list-item-6 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -403,7 +407,7 @@
 .u-section-3 .u-image-6 {
   width: 203px;
   height: 203px;
-  background-image: url("images/campionari_m.jpg");
+  background-image: url('../assets/Gestao-de-campanhas-digitais.jpg');
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -753,7 +757,8 @@
   .u-section-3 .u-btn-6 {
     margin-top: 26px;
   }
-}.u-section-4 {
+}
+.u-section-4 {
   background-image: none;
 }
 
@@ -774,14 +779,16 @@
 }
 
 .u-section-4 .u-repeater-1 {
-  grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px);
+  grid-template-columns: calc(33.3333% - 13.3333px) calc(33.3333% - 13.3333px) calc(
+      33.3333% - 13.3333px
+    );
   grid-gap: 20px 20px;
   min-height: 387px;
 }
 
 .u-section-4 .u-list-item-1 {
   background-image: none;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -820,7 +827,7 @@
 }
 
 .u-section-4 .u-list-item-2 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -859,7 +866,7 @@
 }
 
 .u-section-4 .u-list-item-3 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -898,7 +905,7 @@
 }
 
 .u-section-4 .u-list-item-4 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -937,7 +944,7 @@
 }
 
 .u-section-4 .u-list-item-5 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -976,7 +983,7 @@
 }
 
 .u-section-4 .u-list-item-6 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -1015,7 +1022,7 @@
 }
 
 .u-section-4 .u-list-item-7 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -1054,7 +1061,7 @@
 }
 
 .u-section-4 .u-list-item-8 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
@@ -1093,7 +1100,7 @@
 }
 
 .u-section-4 .u-list-item-9 {
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
   animation-duration: 1000ms;
 }
 
