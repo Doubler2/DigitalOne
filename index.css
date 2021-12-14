@@ -1,3 +1,8 @@
+.contequipa{
+  border-top: 3px solid  #0a8fcd;
+  margin: 2rem 0;
+}
+
 .equipa {
   font-size: 2rem;
   font-weight: 700;
@@ -9,7 +14,7 @@
 }
 
 .equipaDescriptioon {
-  width: 90%;
+  width: 100%;
   font-size: 1rem;
   margin-right: 2rem;
   padding: 0 2rem;
@@ -19,7 +24,6 @@
 }
 
 .trabjunts{
-  colo
   display: flex;
   text-align: center;
   justify-content: center;

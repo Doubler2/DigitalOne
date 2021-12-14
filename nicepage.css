@@ -3,8 +3,8 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2020 Froala Labs
  */
-
-.fr-clearfix::after {
+ .fr-clearfix::after {
+  background-image: ;
   clear: both;
   display: block;
   content: "";
@@ -4433,6 +4433,7 @@ ol {
   transform-origin: center top;
   transition: transform 500ms ease, transform-origin 500ms ease, opacity 0ms ease 500ms;
 }
+.u-container-layout
 .u-effect-flip-top:hover .u-over-slide,
 .u-effect-flip-top.u-effect-active .u-over-slide {
   opacity: 1;

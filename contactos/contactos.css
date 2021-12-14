@@ -56,6 +56,7 @@ section::before {
 .container1 .contactInfo ul.info {
   position: relative;
   margin: -15px 0;
+  transform: translateY(-4rem);
 }
 
 .container1 .contactInfo ul.info li {
@@ -220,6 +221,11 @@ iframe {
     padding: 40px;
     height: 550px;
   }
+
+  .container1 .contactInfo ul.info {
+    transform: translateY(0.2rem);
+  }
+
 }
 
 @media (max-width: 991px) {
