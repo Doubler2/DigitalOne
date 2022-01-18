@@ -1,3 +1,9 @@
+.font{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 8rem;
+    font-weight: 0;
+}
+
 .parg{
   transform: translateY(-15px);
 }
@@ -11,7 +17,7 @@
 }
 
 .u-section-1 {
-  background-image: url('images/srr-min.jpg');
+  background-image: url('./assets/Sobre_nos_FUNDO/Sobre_nos_FUNDO_1.jpg');
   background-position: 50% 50%;
 }
 
@@ -401,7 +407,7 @@
 
 .u-section-3 .u-image-1 {
   min-height: 272px;
-  background-image: url('images/mesa-com-acessorios-coloridos-de-design-grafico.webp');
+  background-image: url('./assets/o_que_temo_para_si/Digital_One_Grafica_2.jpg');
 }
 
 .u-section-3 .u-container-layout-3 {
@@ -438,7 +444,7 @@
 
 .u-section-3 .u-image-2 {
   min-height: 299px;
-  background-image: url('images/progic-conteudos-de-parceiros.jpg');
+  background-image: url('./assets/o_que_temo_para_si/TV.jpg');
   background-position: 100% 54.38%;
   background-size: 125%;
 }
