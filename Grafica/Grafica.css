@@ -1,31 +1,26 @@
-
-.design p{
+.design p {
   font-size: 1.2rem;
 }
 
-.design h3{
+.design h3 {
   font-size: 2rem;
   font-weight: 700;
   color: #0a8fcd;
 }
 
-.design-ul{
+.design-ul {
   font-size: 1.1rem;
 }
 
-.impre h3{
+.impre h3 {
   font-size: 1.5rem;
   font-weight: 400;
   color: #000000;
 }
 
-
-
-.impre p{
+.impre p {
   font-size: 1.2rem;
 }
-
-
 
 .u-section-1 {
   min-height: 396px;
@@ -100,7 +95,7 @@
   height: 570px;
   object-position: 2.6% 50%;
   background-position: 50% 50%;
-  background-image: url('images/mesa-com-acessorios-coloridos-de-design-grafico.webp');
+  background-image: url('../assets//grafica/Digital_One_Gráfica_1.jpg');
   animation-duration: 1000ms;
   margin: -437px calc(((100% - 1140px) / 2) + 89px) 0 auto;
 }
@@ -259,7 +254,7 @@
 .u-section-3 .u-image-1 {
   width: 203px;
   height: 203px;
-  background-image: url('../assets/Impressao_de_Rigidos.jpg');
+  background-image: url('../assets/grafica/rigidos_1.jpg');
   background-position: 50% 50%;
   margin: 0 auto;
 }
@@ -331,7 +326,7 @@
 .u-section-3 .u-image-3 {
   width: 203px;
   height: 203px;
-  background-image: url('../assets/Impressao-Pequeno-Formato.jpg');
+  background-image: url('../assets/grafica/Pequeno-Formato1.jpg ');
   background-position: 50% 50%;
   margin: 0 auto;
 }
