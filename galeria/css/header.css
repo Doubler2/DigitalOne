@@ -1,0 +1,146 @@
+/* ===!!=== HEADER ===!!=== */
+
+#header {
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 2rem;
+  display: flex;
+
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fafafa;
+}
+
+#header nav {
+  width: 100%;
+  height: 8.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #0a8fce;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+/* ====== Menu hidden ===== */
+nav .titleMenu{
+  font-weight: 700;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+}
+nav #menu ul li {
+   display: inline;
+   list-style: none;
+   margin-left: 1.5rem;
+   position: relative;
+}
+nav #menu ul li ::before {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+
+  width: 0;
+  height: 2px;
+
+  background-color: #0a8fce;
+
+  transition: 0.5s;
+}
+nav #menu ul li:hover ::before {
+  width: 100%;
+}
+
+nav .shadow {
+  display: none;
+}
+
+nav .toggle{
+  display: none;
+}
+
+/* ====== Menu show ===== */
+nav.show #menu{
+  opacity: 1;
+  visibility: visible;
+
+  background-color: rgba(0, 0, 0, 0.911);
+  height: 100vh;
+  width: 250px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+nav.show #menu ul {
+  display: block;
+  margin-top: 30%;
+}
+
+nav.show #menu ul li {
+  display: block; 
+  text-align: center;
+  margin-top: 15px;
+}
+
+nav.show .shadow{
+  display: inline;
+  background-color: rgba(0, 0, 0, 0.664);
+  height: 100vh;
+  width: 100vw;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+nav.show .toggle{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 999;
+}
+
+nav.show .closs{
+  display: inline-block;
+}
+
+nav.show .open{
+  display: none;
+}
+
+nav.show .titleMenu{
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #fff;
+  transition: 0.2s;
+}
+nav.show .titleMenu:hover{
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #5e5656;
+}
+nav #menu ul li ::before {
+  content: '';
+  position: relative;
+}
+
+/* ====** Medea **====*/
+
+@media only screen and (max-width: 995px){
+  nav .open{
+    display: inline-block;
+  }
+
+  nav #menu ul {
+    display: none;
+ }
+}  
