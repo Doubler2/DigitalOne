@@ -3,7 +3,6 @@
   font-weight: 700;
   margin: 1rem 0 0 0;
 }
-u-container-layout
 
 #titulo {
   display: flex;
@@ -16,8 +15,8 @@ u-container-layout
 }
 
 .u-section-1 {
-  background-image: url('images/logo-1330779_1280.png');
-  background-position: 50% 50%;
+  background-image: url('images/Conteudos.jpg');
+  background-position: 30% 30%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -44,15 +43,15 @@ u-container-layout
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 0;
+    min-height: 160px;
   }
 }
 .u-section-2 .u-sheet-1 {
-  min-height: 0;
+  min-height: 903px;
 }
 
 .u-section-2 .u-list-1 {
-  width: 0;
+  width: 987px;
   margin: 50px auto 60px;
 }
 
@@ -74,7 +73,7 @@ u-container-layout
 }
 
 .u-section-2 .u-image-1 {
-  height: 0;
+  height: 241px;
   margin-bottom: 0;
   margin-top: 0;
 }
